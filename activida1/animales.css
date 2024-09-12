@@ -24,16 +24,18 @@ body {
     text-align: left; /* Alinea el texto a la izquierda */
 }
 
-th, td {
+td {
     padding: 12px; /* Espacio interno de las celdas */
     border: 1px solid #ddd; /* Borde de celdas */
-    text-align: center;
+    
 }
-
 th {
-    background-color: #f4f4f4; /* Color de fondo de los encabezados */
-    color: #ddd; /* Color del texto del encabezado */
-    font-weight: bold; /* Texto en negrita */
+    padding: 12px; /* Espacio interno de las celdas */
+    border: 1px solid #ddd; /* Borde de celdas */
+    background-color: #f4f4f4;
+    color: #000000;
+    text-align: center;
+
 }
 
 tr:nth-child(even) {
