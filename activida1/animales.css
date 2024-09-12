@@ -27,6 +27,7 @@ body {
 th, td {
     padding: 12px; /* Espacio interno de las celdas */
     border: 1px solid #ddd; /* Borde de celdas */
+    text-align: center;
 }
 
 th {
