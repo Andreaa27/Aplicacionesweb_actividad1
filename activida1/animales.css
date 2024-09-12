@@ -1,0 +1,44 @@
+body {
+    background-color:beige;
+}
+
+.parrafos{
+    font-size: larger;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    color:darkslategray;
+}
+#listas{
+    font-size:medium;
+    font-family:cursive;
+    color:darkseagreen
+}
+
+
+.tabla {
+    width: 100%; /* Ancho completo de la tabla */
+    border-collapse: collapse; /* Combina los bordes de las celdas */
+    margin: 20px 0; /* Espacio alrededor de la tabla */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Fuente */
+    font-size: 14px; /* Tamaño de fuente */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+th, td {
+    padding: 12px; /* Espacio interno de las celdas */
+    border: 1px solid #ddd; /* Borde de celdas */
+}
+
+th {
+    background-color: #f4f4f4; /* Color de fondo de los encabezados */
+    color: #ddd; /* Color del texto del encabezado */
+    font-weight: bold; /* Texto en negrita */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color de fondo alterno para filas pares */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Color de fondo al pasar el mouse por encima */
+}
