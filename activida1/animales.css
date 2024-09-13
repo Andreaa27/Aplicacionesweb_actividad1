@@ -1,5 +1,6 @@
 body {
     background-color:beige;
+    text-align: justify;
 }
 
 .parrafos{
@@ -15,13 +16,16 @@ body {
 }
 
 
-.tabla {
+tabla {
+    border: 1;
     width: 100%; /* Ancho completo de la tabla */
     border-collapse: collapse; /* Combina los bordes de las celdas */
     margin: 20px 0; /* Espacio alrededor de la tabla */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Fuente */
     font-size: 14px; /* Tamaño de fuente */
     text-align: left; /* Alinea el texto a la izquierda */
+    width: 80%;
+    margin-left: 1%;
 }
 
 td {
@@ -40,10 +44,11 @@ th {
 img {
     max-width: 50%; 
     height: auto;    
+    margin-left: 45%;
 }
 .col3 {
     width: 25%; 
-    text-align: center;
+    align-items: center;
 }
 
 tr:nth-child(even) {
