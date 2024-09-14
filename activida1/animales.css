@@ -1,20 +1,53 @@
+
 body {
     background-color:beige;
     text-align: justify;
 }
 
+
+.titulo {
+    margin: 0 auto; /* Márgenes automáticos centran el bloque horizontalmente */
+    text-align: center; /* Asegura que el texto esté centrado dentro del bloque */
+    width: fit-content; /* O establece un ancho, como por ejemplo width: 200px */
+    color:#24cb11;
+  }
 .parrafos{
     font-size: larger;
     font-weight: 400;
     font-family:'Times New Roman', Times, serif;
     color:darkslategray;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 #listas{
     font-size:medium;
     font-family:cursive;
-    color:darkseagreen
+    color:rgb(80, 89, 80);
+    margin-left: 20px;
+    margin-right: 30px;
+    
 }
-
+#listas li::marker {
+    color: rgb(78, 195, 78); /* Color de las viñetas en verde */
+}
+.link{
+    color:rgb(31, 192, 66);
+    font-family: 'Arial', sans-serif; /* Cambia la fuente del enlace */
+    font-size: 18px; /* Puedes ajustar el tamaño de la fuente */
+    margin-left: 30px;
+    font-style: italic;
+}
+#listas2{
+    font-size:medium;
+    font-family:cursive;
+    color:rgb(6, 7, 6);
+    margin-left: 20px;
+    margin-right: 30px;
+    
+}
+#listas2 strong {
+    color: rgb(31, 192, 66); /* Color para el texto en negritas */
+}
 
 tabla {
     border: 1;
