@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta información del documento, establece el conjunto de caracteres y la vista adaptable -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Enlace a la hoja de estilos externa llamada "animales.css" -->
     <link rel="stylesheet" href="animales.css">
+
+    <!-- Enlace al icono de la pagina -->
     <link rel="shortcut icon" href="data:image/jpeg;base64,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" />
     <title>Animales</title>
 </head>
 <body>
+    <!-- Introduccion al contenido de la pagina web-->
     <h1 class="titulo">Top 5 de Animales </h1>
     <br>
     <p class="parrafos">Se estima que existen alrededor de 7,77 millones de especies de animales en el mundo, pero solo se han catalogado y descrito cerca de 960,000 de ellas. 
@@ -16,97 +22,108 @@
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpWu58DD6jZcUY95R1HL_SeIk_3CaRRpAXyw&s" alt="Img.1">
     <p class="parrafos">La Unión Internacional para la Conservación de la Naturaleza (IUCN) señala que las especies en peligro de extinción son: 25% de los mamíferos y anfibios, 34% de los peces, 20% de los reptiles, 11% de las aves.</p>
     
-    <p class="parrafos">Algunos animales en peligro de extinción en México son:</p>
-    <ul id="listas">
-        <li>Águila real</li>
-        <li> Oso negro</li>
-        <li> Águila arpía</li>
-        <li>  Berrendo</li>
-        <li> Cocodrilo de río</li>
-        <li> Jaguar</li>
-        <li>Manatí</li>
-        <li>Nutria de río</li>
-    </ul>
-    <a class= "link" href="https://www.iucnredlist.org/es">Visita La Lista Roja</a>
+    <!-- Uso de listas -->
+<p class="parrafos">Algunos animales en peligro de extinción en México son:</p>
+<ul id="listas">
+    <li>Águila real</li> <!-- Especie en peligro de extinción en México -->
+    <li> Oso negro</li> <!-- Especie en peligro de extinción en México -->
+    <li> Águila arpía</li> <!-- Especie en peligro de extinción en México -->
+    <li>  Berrendo</li> <!-- Especie en peligro de extinción en México -->
+    <li> Cocodrilo de río</li> <!-- Especie en peligro de extinción en México -->
+    <li> Jaguar</li> <!-- Especie en peligro de extinción en México -->
+    <li>Manatí</li> <!-- Especie en peligro de extinción en México -->
+    <li>Nutria de río</li> <!-- Especie en peligro de extinción en México -->
+</ul>
 
-    <p class="parrafos">La acción del ser humano en los ecosistemas ha provocado que numerosas especies hayan desaparecido o estén en peligro de desaparecer.</p>
-    <ul id="listas2">
-        <li><strong>Caza indiscriminada:</strong> La caza excesiva y no regulada de especies silvestres, especialmente por motivos comerciales o deportivos, puede llevar a la disminución de poblaciones y, en algunos casos, a la extinción.</li>
-        <li><strong>Destrucción y fragmentación de hábitats:</strong> La deforestación, la urbanización y la agricultura intensiva pueden destruir o fragmentar los hábitats naturales, lo que reduce la capacidad de las especies para sobrevivir y se interrumpe la conectividad entre poblaciones.</li>
-        <li><strong>Introducción de especies exóticas:</strong> La introducción de especies no nativas en ecosistemas puede llevar a la competencia por recursos y la depredación, lo que puede causar la disminución o la extinción de especies autóctonas.</li>
-        <li><strong>Contaminación y cambio climático:</strong> La contaminación del aire, el agua y el suelo, así como el cambio climático, pueden afectar negativamente la salud y la supervivencia de las especies, especialmente aquellas que dependen de condiciones específicas para sobrevivir.</li>
-    </ul>
+<!-- Enlace a una página externa sobre especies en peligro de extinción -->
+<a class="link" href="https://www.iucnredlist.org/es">Visita La Lista Roja</a>
+
+<!-- Descripción del impacto humano en los ecosistemas -->
+<p class="parrafos">La acción del ser humano en los ecosistemas ha provocado que numerosas especies hayan desaparecido o estén en peligro de desaparecer.</p>
+
+<!-- Lista de factores que contribuyen a la extinción de especies -->
+<ul id="listas2">
+    <li><strong>Caza indiscriminada:</strong> La caza excesiva y no regulada de especies silvestres, especialmente por motivos comerciales o deportivos, puede llevar a la disminución de poblaciones y, en algunos casos, a la extinción.</li> <!-- Descripción de la caza como factor de riesgo -->
+    <li><strong>Destrucción y fragmentación de hábitats:</strong> La deforestación, la urbanización y la agricultura intensiva pueden destruir o fragmentar los hábitats naturales, lo que reduce la capacidad de las especies para sobrevivir y se interrumpe la conectividad entre poblaciones.</li> <!-- Impacto de la destrucción de hábitats -->
+    <li><strong>Introducción de especies exóticas:</strong> La introducción de especies no nativas en ecosistemas puede llevar a la competencia por recursos y la depredación, lo que puede causar la disminución o la extinción de especies autóctonas.</li> <!-- Impacto de especies invasoras -->
+    <li><strong>Contaminación y cambio climático:</strong> La contaminación del aire, el agua y el suelo, así como el cambio climático, pueden afectar negativamente la salud y la supervivencia de las especies, especialmente aquellas que dependen de condiciones específicas para sobrevivir.</li> <!-- Efectos de la contaminación y el cambio climático en las especies -->
+</ul>
+
+    <!--Creacion de una lista donde encontraremos informacion de los 5 animales más peligrosos-->
     <h2>TOP 5: los animales más peligrosos del mundo</h2>
     <table class="tabla">
         <tr>
-            <th>Mosquito</th>
+            <th>Mosquito</th> <!-- Encabezado para la especie Mosquito -->
             <td>Los mosquitos son insectos voladores comunes que viven en la mayor parte del mundo.
-                Se pueden encontrar más de 3700 tipos de mosquitos en todo el mundo</td>
-            <td>Mata a 725.000 personas anualmente a través de la propagación de enfermedades como la malaria</td>
+                Se pueden encontrar más de 3700 tipos de mosquitos en todo el mundo</td> <!-- Descripción general del mosquito -->
+            <td>Mata a 725.000 personas anualmente a través de la propagación de enfermedades como la malaria</td> <!-- Mortalidad causada por mosquitos -->
         </tr>
         <tr>
-            <th> Serpiente </th>
+            <th> Serpiente </th> <!-- Encabezado para la especie Serpiente -->
             <td>Las serpientes son un tipo de reptiles que se caracterizan principalmente por la carencia de patas. Su anatomía, caracterizada por un cuerpo alargado, está preparada para permitir un desplazamiento sin necesidad de extremidades
-            </td>
-            <td>Mata a 138.000 personas al año</td>
+            </td> <!-- Descripción general de las serpientes -->
+            <td>Mata a 138.000 personas al año</td> <!-- Mortalidad causada por serpientes -->
         </tr>
         <tr>
-            <th>Perro</th>
-            <td>Los perros domésticos se mantienen principalmente como mascotas, aunque muchas razas son capaces de sobrevivir por sí mismas, ya sea en un bosque o en las calles de una ciudad. Según un estudio realizado en 2016, un tercio de todos los hogares del mundo tienen un perro.</td>
-            <td>Mata a 59.000 personas al año</td>
+            <th>Perro</th> <!-- Encabezado para la especie Perro -->
+            <td>Los perros domésticos se mantienen principalmente como mascotas, aunque muchas razas son capaces de sobrevivir por sí mismas, ya sea en un bosque o en las calles de una ciudad. Según un estudio realizado en 2016, un tercio de todos los hogares del mundo tienen un perro.</td> <!-- Descripción general de los perros -->
+            <td>Mata a 59.000 personas al año</td> <!-- Mortalidad causada por perros -->
         </tr>
         <tr>
-            <th> Chinche Triatominae (enfermedad de Chagas) </th>
+            <th> Chinche Triatominae (enfermedad de Chagas) </th> <!-- Encabezado para la especie Triatominae -->
             <td>Los triatominos son insectos que se alimentan de sangre y que se esconden en las grietas de paredes y techos durante el día. Cuando se alimentan, sus heces infectadas pueden caer en mordeduras o picadas, cortaduras o membranas mucosas. 
-            </td>
-            <td>Mata a 10.000 personas al año</td>
+            </td> <!-- Descripción general de los triatominos -->
+            <td>Mata a 10.000 personas al año</td> <!-- Mortalidad causada por Triatominae -->
         </tr>
         <tr>
-            <th> Escorpio </th>
+            <th> Escorpio </th> <!-- Encabezado para la especie Escorpión -->
             <td>Los escorpiones son miembros de la clase Arachnida y están estrechamente relacionados con las arañas, los ácaros y las garrapatas. Comúnmente se les considera habitantes del desierto, pero también viven en los bosques brasileños, la Columbia Británica, Carolina del Norte e incluso en el Himalaya.
-            </td>
-            <td>Mata a 3.300 personas al año</td>
+            </td> <!-- Descripción general de los escorpiones -->
+            <td>Mata a 3.300 personas al año</td> <!-- Mortalidad causada por escorpiones -->
         </tr>
     </table>
+    
 
-    <br><br>
-    <h2>TOP 5: los animales más amigables con el ser humano</h2>
-    <table class="tabla">
-        <tr>
-            <th>Capibara</th>
-            <td>Es un mamífero roedor de gran tamaño, considerado el más grande del mundo.
-                Carga sin mayor problema a otras especies sobre su lomo, como gallinas, monos, tortugas y pájaros.
-                Se destaca porque no es agresiva, peligrosa ni ruidosa.</td>
-            <td class="col3"><img src="https://misanimales.com/wp-content/uploads/2022/08/capibara-animal-mas-amistoso-del-mundo-y-ademas-sirve-de-transporte-para-otros.jpg" alt=""></td>
-        </tr>
-        <tr>
-            <th> Gatos Domésticos </th>
-            <td>Los gatos son cariñosos y tienen mucha personalidad.
+    <!-- Tabla con información de los 5 animales más amigables -->
+<br><br>
+<h2>TOP 5: los animales más amigables con el ser humano</h2>
+<table class="tabla">
+    <tr>
+        <th>Capibara</th> <!-- Encabezado para la especie Capibara -->
+        <td>Es un mamífero roedor de gran tamaño, considerado el más grande del mundo.
+            Carga sin mayor problema a otras especies sobre su lomo, como gallinas, monos, tortugas y pájaros.
+            Se destaca porque no es agresiva, peligrosa ni ruidosa.</td> <!-- Descripción general del Capibara -->
+        <td class="col3"><img src="https://misanimales.com/wp-content/uploads/2022/08/capibara-animal-mas-amistoso-del-mundo-y-ademas-sirve-de-transporte-para-otros.jpg" alt=""></td> <!-- Imagen de un capibara -->
+    </tr>
+    <tr>
+        <th> Gatos Domésticos </th> <!-- Encabezado para los Gatos Domésticos -->
+        <td>Los gatos son cariñosos y tienen mucha personalidad.
 
-                Además, los gatos son muy inteligentes y muy limpios. ¿Qué más se puede pedir a un amigo de cuatro patas y compañero de casa? 
-                Si quieres un gatito que se incline hacia el lado más amistoso de la escala, 
-                busca un Maine Coon. Los atigrados naranjas también suelen ser cariñosos.
-            </td>
-            <td class="col3"><img src="https://animalessalvajes.world/wp-content/uploads/2021/07/Hombre-acariciando-a-su-gato-1024x683.jpg" alt=""></td>
-        </tr>
-        <tr>
-            <th>Delfines</th>
-            <td>Según la mayoría de las culturas, los delfines se consideran amigables e inteligentes. De hecho, son animales sociables, 
-                perfectamente adiestrables, que hoy en día forman parte habitual de espectáculos y parques acuáticos.</td>
-            <td class="col3"><img src="https://concepto.de/wp-content/uploads/2021/07/delfin-e1626540901584.jpg" alt=""></td>
-        </tr>
-        <tr>
-            <th> Dragones Barbudos </th>
-            <td> A los dragones barbudos les gusta que los manipulen, y a veces se pasan unas cuantas horas simplemente colgados del hombro de su dueño.
-            </td>
-            <td class="col3"><img src="https://animalessalvajes.world/wp-content/uploads/2021/07/Sostener-un-dragon-barbudo.jpg" alt=""></td>
-        </tr>
-        <tr>
-            <th> Llamas </th>
-            <td> A las entrañables llamas les encanta estar cerca de los residentes y viceversa.
-            </td>
-            <td class="col3"><img src="https://animalessalvajes.world/wp-content/uploads/2021/07/Hombre-alimentando-a-Llama.jpg" alt=""></td>
-        </tr>
-    </table>
+            Además, los gatos son muy inteligentes y muy limpios. ¿Qué más se puede pedir a un amigo de cuatro patas y compañero de casa? 
+            Si quieres un gatito que se incline hacia el lado más amistoso de la escala, 
+            busca un Maine Coon. Los atigrados naranjas también suelen ser cariñosos.
+        </td> <!-- Descripción general de los gatos domésticos -->
+        <td class="col3"><img src="https://animalessalvajes.world/wp-content/uploads/2021/07/Hombre-acariciando-a-su-gato-1024x683.jpg" alt=""></td> <!-- Imagen de un gato doméstico -->
+    </tr>
+    <tr>
+        <th>Delfines</th> <!-- Encabezado para la especie Delfines -->
+        <td>Según la mayoría de las culturas, los delfines se consideran amigables e inteligentes. De hecho, son animales sociables, 
+            perfectamente adiestrables, que hoy en día forman parte habitual de espectáculos y parques acuáticos.</td> <!-- Descripción general de los delfines -->
+        <td class="col3"><img src="https://concepto.de/wp-content/uploads/2021/07/delfin-e1626540901584.jpg" alt=""></td> <!-- Imagen de un delfín -->
+    </tr>
+    <tr>
+        <th> Dragones Barbudos </th> <!-- Encabezado para la especie Dragones Barbudos -->
+        <td>A los dragones barbudos les gusta que los manipulen, y a veces se pasan unas cuantas horas simplemente colgados del hombro de su dueño.
+        </td> <!-- Descripción general de los dragones barbudos -->
+        <td class="col3"><img src="https://animalessalvajes.world/wp-content/uploads/2021/07/Sostener-un-dragon-barbudo.jpg" alt=""></td> <!-- Imagen de un dragón barbudo -->
+    </tr>
+    <tr>
+        <th> Llamas </th> <!-- Encabezado para la especie Llamas -->
+        <td>A las entrañables llamas les encanta estar cerca de los residentes y viceversa.
+        </td> <!-- Descripción general de las llamas -->
+        <td class="col3"><img src="https://animalessalvajes.world/wp-content/uploads/2021/07/Hombre-alimentando-a-Llama.jpg" alt=""></td> <!-- Imagen de una llama -->
+    </tr>
+</table>
+
 </body>
 </html>
